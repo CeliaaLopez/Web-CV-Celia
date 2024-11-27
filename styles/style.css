@@ -1,0 +1,141 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.forAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+
+.header {
+    margin-bottom: 4.69vw;
+    height: 11.5vw;
+    width: 100%;
+    background-color: rgba(183, 101, 101, 0.377);
+    padding: 0.52vw;
+    height: auto;
+}
+
+.image {
+    border-radius: 10%;
+    border: 0.15vw double rgba(245, 245, 245, 0.975);
+    filter: contrast(1.01) saturate(1.2);
+    transition: border-color 0.2s ease, border-width 0.2s ease;
+    max-width: 9.4vw;
+    height: auto;
+    margin-top: 5.2vw;
+    margin-bottom: 3.6vw;
+    transform: scale(1.5);
+}
+
+.image:hover {
+    border-color: rgb(255, 255, 255);
+    border-width: 0.26vw;
+    width: 45%;
+}
+
+.name {
+    width: 40%;
+}
+
+.profession {
+    width: 23%;
+}
+.description{
+    text-align: center;
+    margin-top: 4vw;
+    gap: 2vw;
+    line-height: 2vw;
+    font-size: 1.1vw;
+    color: rgba(53, 53, 53, 0.757);
+    margin-bottom: 4.2vw;
+}
+
+.titles {
+    text-align: center;
+    margin-top: 1.04vw;
+}
+
+.titles p {
+    margin: 1.04vw;
+    padding-bottom: 0.26vw;
+    font-size: 2.08vw;
+    color: rgba(53, 53, 53, 0.757);
+}
+
+.titles hr {
+    border: 0;
+    height: 0.2vw;
+    background-color: rgba(183, 101, 101, 0.377);
+    width: 45%;
+}
+
+.border{
+    margin: auto;
+    width: 70%;
+    border: 0.4vw solid rgba(183, 101, 101, 0.377);
+}
+
+.content {
+    margin-top: 2.1vw;
+    margin-bottom: 4.2vw;
+}
+
+.content ul {
+    padding: 0;
+    list-style-position: outside;
+}
+
+.content li {
+    margin: 0.47vw;
+    font-size: 1.04vw;
+    color: rgba(53, 53, 53, 0.936);
+    list-style: circle;
+    gap: 0.5vw;
+}
+
+.content p {
+    margin: 0.52vw 0;
+    text-align: center;
+    font-size: 1.04vw;
+    color: rgba(53, 53, 53, 0.757);
+}
+
+.personalContent li icon {
+    margin-right: 0.52vw;
+    font-size: 1.04vw;
+    color: rgba(53, 53, 53, 0.936);
+}
+
+.personalContent {
+    margin-top: 2.08vw;
+    margin-bottom: 4.17vw;
+}
+
+.personalContent ul {
+    padding: 0;
+    list-style-position: outside;
+}
+
+.personalContent li {
+    margin: 0.47vw;
+    font-size: 1.04vw;
+    color: rgba(53, 53, 53, 0.936);
+    list-style: none;
+}
+
+.personalContent p {
+    margin: 0.52vw 0;
+    text-align: center;
+    font-size: 1.04vw;
+    color: rgba(53, 53, 53, 0.757);
+}
